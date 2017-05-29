@@ -51,3 +51,12 @@ n stable
 
 n latest 安装最新版
 n 7.5 安装7.5版本
+
+### 7. 安装git
+```
+apt-get install git
+```
+### 8.安装 mongodb
+```
+apt-get install mongodb
+```
