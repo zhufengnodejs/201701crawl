@@ -35,3 +35,19 @@ apt-get update
 ```
 apt-get install npm
 ```
+
+### 5.通过npm装 n
+n是一个linux下面node版本管理器
+```
+npm install n -g
+```
+
+### 6.安装node
+安装稳定版
+
+```
+n stable
+```
+
+n latest 安装最新版
+n 7.5 安装7.5版本
