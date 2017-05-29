@@ -10,4 +10,4 @@ app.get('/',function(req,res){
         res.render('index',{movies});
     });
 });
-app.listen(80,'47.92.140.227');
+app.listen(80);
