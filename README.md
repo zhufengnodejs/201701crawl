@@ -16,3 +16,22 @@ npm install request iconv-lite cheerio async cron debug mongoose express ejs -S
 3. 编写main方法实现爬虫
 4. 创建服务并显示保存的电影
 
+## 布署 ECS服务器
+### 1.购买ECS服务器
+### 2.连接服务器
+1. 通过git-bash
+```
+ssh root@47.92.140.227
+yes
+密码
+```
+
+### 3.更新操作系统
+```
+apt-get update
+```
+
+### 4.安装npm
+```
+apt-get install npm
+```
