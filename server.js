@@ -10,4 +10,10 @@ app.get('/',function(req,res){
         res.render('index',{movies});
     });
 });
+
 app.listen(80);
+
+let start = require('./tasks/main').start;
+let CronJob = require('cron').CronJob;
+let job = new CronJob('0 */30 * * * *',start);
+job.start();

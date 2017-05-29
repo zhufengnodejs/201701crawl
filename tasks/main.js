@@ -19,4 +19,4 @@ function start(){
        debug('全部任务完成');
    });
 }
-start();
+exports.start = start;

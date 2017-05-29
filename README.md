@@ -77,3 +77,10 @@ node main.js
 cd ..
 node server.js
 ```
+
+### 12 安装pm2
+可以让服务在后台运行
+```
+npm install pm2 -g
+pm2 start server.js --name "crawl"
+```
