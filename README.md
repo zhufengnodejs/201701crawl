@@ -14,4 +14,5 @@ npm install request iconv-lite cheerio async cron debug mongoose express ejs -S
 1. 创建项目并编写读取方法
 2. 把得到的电影数组保存到数据库中
 3. 编写main方法实现爬虫
+4. 创建服务并显示保存的电影
 
