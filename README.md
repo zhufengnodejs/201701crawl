@@ -60,3 +60,20 @@ apt-get install git
 ```
 apt-get install mongodb
 ```
+
+### 9.下载代码并安装依赖的模块
+```
+git clone https://github.com/zhufengnodejs/201701crawl.git
+cd 201701crawl
+npm install
+```
+### 10.拉取数据
+```
+cd tasks
+node main.js
+```
+### 11. 启动http服务器
+```
+cd ..
+node server.js
+```
