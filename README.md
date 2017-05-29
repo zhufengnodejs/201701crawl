@@ -83,4 +83,7 @@ node server.js
 ```
 npm install pm2 -g
 pm2 start server.js --name "crawl"
+pm2 stop crawl
+pm2 start crawl
+pm2 restart crawl
 ```
